@@ -53,8 +53,8 @@ namespace Kamino_Factory
 
                 currStartIndex = currEndIndex - currCount + 1;
                 currDnaSum = currDNA.Sum();
+                
                 // Check current Dna with best Dna
-
                 if (currCount > dnaCount)
                 {
                     isCurrDnaBetter = true;
